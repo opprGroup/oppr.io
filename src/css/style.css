@@ -23,7 +23,7 @@ body {
 }
 
 a {
-  color: #a8ae7e;
+  color: #3498db;
   text-decoration: none;
 }
 
@@ -581,7 +581,7 @@ Projects
 
 .cd-projects-previews li:nth-of-type(2) a,
 .cd-projects > li:nth-of-type(2) .preview-image {
-  background: #a8ae7e url(../img/img-2.png) no-repeat center center;
+  background: #3498db url(../img/img-2.png) no-repeat center center;
   background-size: cover;
 }
 
@@ -932,12 +932,12 @@ li.selected .cd-project-title,
   -moz-osx-font-smoothing: grayscale;
 }
 .no-touch .cd-primary-nav a:hover {
-  background-color: #a8ae7e;
+  background-color: #3498db;
 }
 .cd-primary-nav .cd-label {
   position: relative;
   margin: 2.4em 0 2em;
-  color: #a8ae7e;
+  color: #3498db;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.2rem;

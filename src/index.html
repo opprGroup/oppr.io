@@ -1,6 +1,25 @@
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="en" class="no-js" prefix="og: http://ogp.me/ns#">
 <head>
+
+	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -10,7 +29,15 @@
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
   	
-	<title>Sliding Panels Template | CodyHouse</title>
+	<title>oppr</title>
+
+	<meta property="og:title" content="oppr" />
+	<meta property="og:type" content="video.movie" />
+	<meta property="og:url" content="http://oppr.io/" />
+	<meta property="og:image" content="http://oppr.io/img/oppr.png" />
+	<meta property="og:image" content="http://oppr.io/img/cover.png" />
+	<meta property="og:image" content="http://oppr.io/img/digital.png" />
+
 </head>
 <body>
 	<a class="cd-nav-trigger cd-text-replace" href="#primary-nav">Menu<span aria-hidden="true" class="cd-icon"></span></a>
@@ -110,9 +137,11 @@
 					</p>
 
 					<div class="container">
-						<a href="http://dev.oppr.io/" target="_blank">
-							<button class="btn-1 button-color-midnight">opprDev</button>
-						</a>
+						<button class="btn-1 button-color-midnight">
+							<a class="button-color-midnight" href="http://dev.oppr.io/" target="_blank">
+								opprDev
+							</a>
+						</button>
 					</div>
 				</div> <!-- .cd-project-info -->
 			</li>
@@ -134,9 +163,13 @@
 					</p>
 
 					<div class="container">
-						<a href="https://github.com/opprDev/jQuery_tutorial" target="_blank">
-							<button class="btn-1 button-color-green">jQuery Tutorial</button>
-						</a>
+						
+						<button class="btn-1 button-color-green">
+							<a class="button-color-green" href="https://github.com/opprDev/jQuery_tutorial" target="_blank">
+								jQuery Tutorial
+							</a>
+						</button>
+						
 					</div>
 
 				</div> <!-- .cd-project-info -->
@@ -175,5 +208,25 @@
 	</nav> <!-- .cd-primary-nav -->
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+<!-- Facebook -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1233333316741054',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
 </body>
 </html>
