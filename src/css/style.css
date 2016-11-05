@@ -104,12 +104,12 @@ button::after {
 
 button {
   background: none;
-  border-radius: 5px;
+  border-radius: 1.5px;
   display: block;
   font-size: 1.6em;
   font-weight: bold;
-  margin: 1em auto;
-  padding: 2em 6em;
+  margin: 0.5em auto;
+  padding: 0.5em 1.5em;
   position: relative;
   text-transform: uppercase;
 }
@@ -144,6 +144,26 @@ button::after {
 
 .button-color-orange {
   border: 3px solid #f39c12;
+  color: #f39c12;
+}
+
+.link-color-blue {
+  color: #3498db;
+}
+
+.link-color-purple {
+  color: #9b59b6;
+}
+
+.link-color-midnight {
+  color: #34495e;
+}
+
+.link-color-green {
+  color: #2ecc71;
+}
+
+.link-color-orange {
   color: #f39c12;
 }
 
